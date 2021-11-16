@@ -12,7 +12,7 @@ files:
       offset: 54
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       result = fn()
               result = result.upper()
@@ -40,5 +40,8 @@ files:
   text: |
     HELLO, WORLD!!!
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 16 Nov 2021 18:03:54 UTC
 record: -1
