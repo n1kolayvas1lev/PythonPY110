@@ -3,8 +3,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 27
-    length: 33
+  - offset: 178
+    length: 40
     placeholder_text: '# TODO записать обертку для исходной функции'
     initial_state:
       length: 44
@@ -19,7 +19,7 @@ files:
 
               result = fn(str_arg)
               return result
-  - offset: 83
+  - offset: 241
     length: 25
     placeholder_text: '# TODO задекорировать функцию'
     initial_state:

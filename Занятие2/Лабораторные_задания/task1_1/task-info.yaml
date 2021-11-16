@@ -8,7 +8,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 163
+  - offset: 235
     length: 31
     placeholder_text: '...)  # TODO записать выражение-генератор'
     initial_state:

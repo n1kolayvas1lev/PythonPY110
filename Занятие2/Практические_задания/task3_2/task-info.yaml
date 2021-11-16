@@ -7,7 +7,7 @@ files:
   visible: true
   placeholders:
   - offset: 222
-    length: 2
+    length: 51
     placeholder_text: '# TODO зафиксировать время до начала выполнения функции'
     initial_state:
       length: 55
@@ -16,7 +16,7 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: t0 = time.time()
-  - offset: 315
+  - offset: 458
     length: 39
     placeholder_text: '# TODO зафиксировать время после выполнения'
     initial_state:
@@ -28,7 +28,7 @@ files:
     encrypted_possible_answer: |-
       dt = time.time() - t0
               print(f"Функция выполнялась {dt}")
-  - offset: 472
+  - offset: 615
     length: 25
     placeholder_text: '# TODO задекорировать функцию'
     initial_state:

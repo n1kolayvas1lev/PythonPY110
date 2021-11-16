@@ -11,7 +11,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 18
+    length: 45
     placeholder_text: |-
       def header_footer():  # TODO написать декоратор
           ...

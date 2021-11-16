@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 112
-    length: 74
+    length: 93
     placeholder_text: '# TODO объявить, что переменная count не локальная, а её надо
       искать в nonlocal области видимости'
     initial_state:

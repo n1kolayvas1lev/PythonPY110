@@ -12,8 +12,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 0
-    length: 66
+  - offset: 191
+    length: 71
     placeholder_text: '...  # TODO записать функцию-генератор'
     initial_state:
       length: 38

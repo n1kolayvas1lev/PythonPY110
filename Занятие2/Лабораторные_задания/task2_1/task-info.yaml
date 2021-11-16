@@ -19,7 +19,7 @@ files:
   visible: true
   placeholders:
   - offset: 68
-    length: 14
+    length: 39
     placeholder_text: '# TODO с помощью yield вернуть первое число'
     initial_state:
       length: 43
@@ -28,7 +28,7 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: yield num
-  - offset: 131
+  - offset: 156
     length: 69
     placeholder_text: '# TODO с помощью yield вернуть оставшиеся степени двойки до
       бесконечности'

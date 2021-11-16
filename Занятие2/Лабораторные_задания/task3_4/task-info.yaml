@@ -1,17 +1,22 @@
 type: output
 files:
+- name: tests/output.txt
+  visible: false
+  text: |
+    HELLO, WORLD!!!
+  learner_created: false
 - name: main.py
   visible: true
   placeholders:
-  - offset: 54
-    length: 67
+  - offset: 106
+    length: 57
     placeholder_text: 'fn()  # TODO перевести результат исходной функции в верхний
       регистр'
     initial_state:
       length: 67
       offset: 54
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: |-
       result = fn()
@@ -34,11 +39,6 @@ files:
   learner_created: false
 - name: __init__.py
   visible: false
-  learner_created: false
-- name: tests/output.txt
-  visible: false
-  text: |
-    HELLO, WORLD!!!
   learner_created: false
 status: Solved
 feedback:
