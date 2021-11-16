@@ -1,5 +1,10 @@
 def count(start_number: float = 1, step: float = 1):
-    ...  # TODO написать функцию-генератор возвращающую целые числа
+    yield start_number
+    while True:
+        start_number += step
+        yield start_number
+
+#    #  написать функцию-генератор возвращающую целые числа
 
 
 if __name__ == "__main__":
