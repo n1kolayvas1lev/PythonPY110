@@ -3,8 +3,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 178
-    length: 40
+  - offset: 27
+    length: 191
     placeholder_text: '# TODO записать обертку для исходной функции'
     initial_state:
       length: 44

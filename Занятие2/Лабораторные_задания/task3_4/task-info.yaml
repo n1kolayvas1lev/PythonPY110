@@ -13,8 +13,8 @@ files:
     placeholder_text: 'fn()  # TODO перевести результат исходной функции в верхний
       регистр'
     initial_state:
-      length: 67
-      offset: 54
+      length: 57
+      offset: 106
     initialized_from_dependency: false
     selected: true
     status: Solved

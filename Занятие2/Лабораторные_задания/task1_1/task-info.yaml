@@ -12,8 +12,8 @@ files:
     length: 31
     placeholder_text: '...)  # TODO записать выражение-генератор'
     initial_state:
-      length: 41
-      offset: 153
+      length: 31
+      offset: 235
     initialized_from_dependency: false
     selected: true
     status: Solved

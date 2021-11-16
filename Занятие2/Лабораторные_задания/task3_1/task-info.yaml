@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 54
-    length: 50
+    length: 111
     placeholder_text: '# TODO написать проверку положительности аргумента arg'
     initial_state:
       length: 54

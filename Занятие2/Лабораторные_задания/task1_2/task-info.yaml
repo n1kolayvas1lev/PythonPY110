@@ -8,8 +8,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 47
-    length: 67
+  - offset: 36
+    length: 78
     placeholder_text: '...  # TODO записать выражение-генератор для возведения чисел
       в квадрат'
     initial_state:
