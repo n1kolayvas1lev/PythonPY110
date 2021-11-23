@@ -9,12 +9,12 @@ def to_pickle_file(obj, filename: str) -> None:
     if not filename.endswith('.pickle'):
         filename += '.pickle'
 
-    with open(filename, "wb") as f:
+    with open(filename, "wb") as f: # wb - write binary, по умолчанию wt - text
         pickle.dump(obj, f)
 
 
 def from_pickle_file(filename: str):
-    with open(filename, "rb") as f:
+    with open(filename, "rb") as f: # rb - read binary
         obj = pickle.load(f)
 
     return obj

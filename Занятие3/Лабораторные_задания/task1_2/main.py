@@ -2,8 +2,10 @@ OUTPUT_FILE = "output.txt"
 
 
 def task():
-    ...  # TODO записать лесенку в файл
-
+    #  записать лесенку в файл
+    with open(OUTPUT_FILE, 'w') as f:
+        for i in range(1, 11):
+            f.write(' ' * (10 - i) + '*' * i + '\n')  #  f"{'*' * i:>10}"
 
 if __name__ == "__main__":
     task()
